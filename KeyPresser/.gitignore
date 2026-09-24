@@ -1,0 +1,22 @@
+# build output
+build/
+build_new/
+dist/
+dist_new/
+*.spec
+
+# generated version resource for the exe (version.py is committed on purpose:
+# it records which build the sources correspond to)
+version_info.txt
+
+# generated icon
+icon.ico
+
+# python
+__pycache__/
+*.py[cod]
+
+# local profiles and logs
+profiles/*.json
+!profiles/example.json
+*.log

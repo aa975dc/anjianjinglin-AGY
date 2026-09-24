@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "steps": [
+    {
+      "key": "space",
+      "action": "tap",
+      "hold_ms": 40,
+      "delay_ms": 800,
+      "repeat": 1,
+      "enabled": true,
+      "comment": "прыжок"
+    },
+    {
+      "key": "alt",
+      "action": "tap",
+      "hold_ms": 60,
+      "delay_ms": 500,
+      "repeat": 1,
+      "enabled": true,
+      "comment": "alt"
+    },
+    {
+      "key": "alt+space",
+      "action": "tap",
+      "hold_ms": 60,
+      "delay_ms": 1200,
+      "repeat": 1,
+      "enabled": true,
+      "comment": "alt + пробел вместе"
+    },
+    {
+      "key": "w",
+      "action": "tap",
+      "hold_ms": 700,
+      "delay_ms": 300,
+      "repeat": 3,
+      "enabled": true,
+      "comment": "физическая клавиша ц при русской раскладке"
+    }
+  ],
+  "mode": "foreground",
+  "target_title": "",
+  "cycles": 0,
+  "cycle_delay_ms": 1000,
+  "jitter_pct": 10,
+  "start_delay_ms": 2000,
+  "hotkeys": {
+    "run_toggle": "f6",
+    "pause": "f7",
+    "stop": "f8",
+    "record_toggle": "f9"
+  },
+  "record_mouse": true,
+  "record_tail_delay_ms": 200,
+  "record_replace": true
+}
